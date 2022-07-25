@@ -66,7 +66,11 @@ main div:nth-child(6){
 
 main div:nth-child(6) p{
     height: 332px;
-    overflow: hidden;
+    overflow: scroll;
+}
+main div:nth-child(6) p::-webkit-scrollbar{
+    display: none;
+
 }
 
 
